@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from 'styled-components';
 
-export const Bottons = styled.div`
+export const BottonsDefault = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-    gap: 20px;
+    gap: 20px;    
 `;
 
-const ButtonShapePayment = ({className, text}) => (
+const ButtonShapePayment = ({ className, text }) => (
     <button className={className}>{text}</button>
 );
 
@@ -21,7 +21,7 @@ export const StyleButtonShapePayment = styled(ButtonShapePayment)`
     color: rgb(35, 132, 223);
 `;
 
-const ButtonAddTitle = ({className, text}) => (
+const ButtonAddTitle = ({ className, text }) => (
     <button className={className}>{text}</button>
 );
 
@@ -31,4 +31,10 @@ export const StyleButtonAddTitle = styled(ButtonAddTitle)`
     justify-content: left;
     box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
     color: rgb(35, 132, 223);
+`;
+
+export const Bottons = styled(BottonsDefault)`
+    @media (max-width: 688px) {                     
+        display: none;                    
+    }
 `;
