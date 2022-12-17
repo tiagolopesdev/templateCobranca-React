@@ -1,4 +1,8 @@
-import { StyleButtonAddTitle, StyleButtonShapePayment } from './styles';
+import { 
+    Bottons, 
+    StyleButtonAddTitle, 
+    StyleButtonShapePayment 
+} from './styles';
 
 export const Navbar = () => {
     return(
@@ -11,7 +15,7 @@ export const Navbar = () => {
                     <div class="two"></div>
                     <div class="three"></div>
                 </div> 
-                <div class="bottons">   
+                <Bottons>
                     <StyleButtonAddTitle
                         className={'btn btn-light'}
                         text={'Adicionar títulos'}
@@ -20,7 +24,7 @@ export const Navbar = () => {
                         className={'btn btn-light'}
                         text={'Formas de pagamento'}
                     />
-                </div>                      
+                </Bottons>                      
             </div>            
             </div>
         </nav>
