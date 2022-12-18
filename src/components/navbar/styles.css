@@ -46,4 +46,9 @@
     .menuSection.on .menuToggle .three {
         transform: rotate(-45deg) translate(8px, -9px);
     }
+
+    .menuSection.on .bottons {
+        display: grid;
+        gap: 20px;
+    }
 }

@@ -26,14 +26,13 @@ export const Navbar = () => {
         <nav className="navbar navbar-dark bg-primary">
             <div className="container-fluid">
             <span className="navbar-brand mb-0 h1">Financias</span>            
-            <div className="menuSection">
-                
+            <div className="menuSection">        
                 <div className="menuToggle" onClick={openMenu}>
                     <div className="one"></div>
                     <div className="two"></div>
                     <div className="three"></div>
                 </div> 
-                <Bottons>
+                <Bottons className='bottons'>
                     <StyleButtonAddTitle
                         className={'btn btn-light'}
                         text={'Adicionar títulos'}

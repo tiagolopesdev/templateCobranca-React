@@ -19,6 +19,11 @@ export const StyleButtonShapePayment = styled(ButtonShapePayment)`
     justify-content: right;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
     color: rgb(35, 132, 223);
+
+    @media (max-width: 688px) {
+        padding: 10px 30px;
+        font-size: 18pt;
+    }
 `;
 
 const ButtonAddTitle = ({ className, text }) => (
@@ -31,6 +36,11 @@ export const StyleButtonAddTitle = styled(ButtonAddTitle)`
     justify-content: left;
     box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
     color: rgb(35, 132, 223);
+
+    @media (max-width: 688px) {
+        padding: 10px 30px;
+        font-size: 18pt;
+    }
 `;
 
 export const Bottons = styled(BottonsDefault)`
