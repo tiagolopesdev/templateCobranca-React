@@ -4,20 +4,10 @@
     border-radius: 50px;
 }
 
-.textAndIndicativoReceitas {
-    display: flex;
-    gap: 50px;
-}
-
-.textAndIndicativoReceitas p {
+.card-text-recipes{
     color: #36AF51;
 }
 
-.textAndIndicativoDespesas {
-    display: flex;
-    gap: 30px;
-}
-
-.textAndIndicativoDespesas p{
+.card-text-expensive{
     color: red
 }

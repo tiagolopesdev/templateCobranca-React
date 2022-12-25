@@ -6,30 +6,20 @@ export const StateFinancialStyle = styled.div`
     justify-content: center;
 `;
 
-export const Recipes = styled.div`
+export const TypeFinance = styled.div`
     display: block;
     gap: 20px;
 `;
 
-export const NumberRecipes = styled.h4`
-    color: #36AF51;
-    margin-top: 10px;
+export const NumberFinance = styled.h4`
+    color: ${props => props.color};
+    margin-top: ${props => props.marginTop};
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
 `;
 
-export const Expenses = styled.div`
-    display: block;
-    gap: 20px;
+export const TextAndIcon = styled.div`
+    display: flex;
+    gap: ${props => props.gap};
 `;
-
-export const NumberExpenses = styled.h4`
-    color: #E44343;
-    margin-top: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-`;
-
-
