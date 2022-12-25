@@ -16,7 +16,7 @@ export const StateFinancial = () => {
                         >
                             <p className="card-text-recipes">Receitas</p>
                             <div>                            
-                                <img src={LogoRecipes} />
+                                <img src={LogoRecipes} alt='Icon recipes'/>
                             </div>
                         </TextAndIcon>
                         <NumberFinance 
@@ -32,7 +32,7 @@ export const StateFinancial = () => {
                             gap='30px'
                         >
                             <div>
-                                <img src={LogoExpensive} />
+                                <img src={LogoExpensive} alt='Icon expenses'/>
                             </div>
                             <p className="card-text-expensive">Despesas</p>
                         </TextAndIcon>
