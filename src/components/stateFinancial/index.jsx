@@ -1,5 +1,5 @@
-import { Card, CardBody, CardBodyStyled, CardStyled } from "../../styles/styles-global";
-import { FinanceText, StateFinancialStyle, TypeFinance, NumberFinance, TextAndIcon } from "./styles";
+import { CardBodyStyled, CardStyled } from "../../styles/styles-global";
+import { StateFinancialStyle, TypeFinance, NumberFinance, TextAndIcon } from "./styles";
 import './style.css';
 import LogoRecipes from './recipes.png';
 import LogoExpensive from './expensives.png';
