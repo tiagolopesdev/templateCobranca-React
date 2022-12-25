@@ -7,7 +7,7 @@ export const StateFinancialStyle = styled.div`
 `;
 
 export const Recipes = styled.div`
-    display: flex;
+    display: block;
     gap: 20px;
 `;
 
@@ -20,8 +20,16 @@ export const NumberRecipes = styled.h4`
 `;
 
 export const Expenses = styled.div`
-    display: flex;
+    display: block;
     gap: 20px;
+`;
+
+export const NumberExpenses = styled.h4`
+    color: #E44343;
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
 `;
 
 

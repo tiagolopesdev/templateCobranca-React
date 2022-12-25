@@ -12,3 +12,12 @@
 .textAndIndicativoReceitas p {
     color: #36AF51;
 }
+
+.textAndIndicativoDespesas {
+    display: flex;
+    gap: 30px;
+}
+
+.textAndIndicativoDespesas p{
+    color: red
+}
