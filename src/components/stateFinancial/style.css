@@ -1,0 +1,14 @@
+.divisionReceitaDespesa {
+    background-color: #b9babda1;
+    width: 2px;
+    border-radius: 50px;
+}
+
+.textAndIndicativoReceitas {
+    display: flex;
+    gap: 50px;
+}
+
+.textAndIndicativoReceitas p {
+    color: #36AF51;
+}
