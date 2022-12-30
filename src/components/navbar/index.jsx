@@ -1,11 +1,7 @@
-import { 
-    Bottons, 
-    StyleButtonAddTitle, 
-    StyleButtonShapePayment 
-} from './styles.js';
-
+import { GroupButtons} from './styles.js';
 import './styles.css';
 import { useState } from 'react';
+import { Button } from '../Button/index.jsx';
 
 export const Navbar = () => {
 
@@ -32,16 +28,16 @@ export const Navbar = () => {
                     <div className="two"></div>
                     <div className="three"></div>
                 </div> 
-                <Bottons className='bottons'>
-                    <StyleButtonAddTitle
+                <GroupButtons>
+                    <Button 
                         className={'btn btn-light'}
-                        text={'Adicionar títulos'}
-                    />                    
-                    <StyleButtonShapePayment 
-                        className={'btn btn-light'}
-                        text={'Formas de pagamento'}
+                        textDisplay={'Adicionar título'}
                     />
-                </Bottons>                      
+                    <Button 
+                        className={'btn btn-light'}
+                        textDisplay={'Forma de pagamento'}
+                    />
+                </GroupButtons>
             </div> 
             </div>
         </nav>
