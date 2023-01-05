@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@react-ui-org/react-ui": "^0.50.1",
     "bootstrap": "^5.2.3",
     "styled-components": "^5.3.6"
   }

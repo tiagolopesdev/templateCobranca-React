@@ -2,6 +2,7 @@ import { GroupButtons} from './styles.js';
 import './styles.css';
 import { useState } from 'react';
 import { Button } from '../Button/index.jsx';
+import { Modal, ModalAddTitle } from '../Modal/index.jsx';
 
 export const Navbar = () => {
 
@@ -21,6 +22,7 @@ export const Navbar = () => {
     return(
         <nav className="navbar navbar-dark bg-primary">
             <div className="container-fluid">
+            <ModalAddTitle></ModalAddTitle>
             <span className="navbar-brand mb-0 h1">Financias</span>            
             <div className="menuSection">        
                 <div className="menuToggle" onClick={openMenu}>
